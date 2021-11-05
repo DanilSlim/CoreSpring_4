@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
-//@ComponentScan
-@EnableAspectJAutoProxy //For AspectJ proxy on
+@ComponentScan
+//@EnableAspectJAutoProxy //For AspectJ proxy on
 public class CDPlayerConfig {
 	
 	
